@@ -1,0 +1,58 @@
+{
+	"name": "jellyfish-dark",
+	"displayName": "Jellyfish",
+	"description": "A truly zen theme. Without boring rulers or indent lines.",
+	"version": "1.0.5",
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"publisher": "nerudevs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/isneru/vsc-themes/tree/main/jellyfish"
+	},
+	"galleryBanner": {
+		"color": "#151517",
+		"theme": "dark"
+	},
+	"icon": "images/jellyfish.png",
+	"keywords": [
+		"theme",
+		"dark",
+		"zen",
+		"minimal",
+		"minimalist",
+		"simple",
+		"clean",
+		"neru",
+		"isneru",
+		"nerudevs",
+		"jellyfish"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Jellyfish",
+				"uiTheme": "vs-dark",
+				"path": "./themes/jellyfish.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "095d4178-cd64-4e6e-8eca-fa604eb9aeb2",
+		"publisherId": "c3b6f806-9ae4-4ead-adef-39836e8fd79a",
+		"publisherDisplayName": "neru devs",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1737220474290,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery",
+		"size": 202390
+	}
+}
