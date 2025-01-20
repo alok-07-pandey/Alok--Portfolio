@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: rgb(250, 245, 245);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    heights: 80px;
+    background-color: #113255;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(134, 134, 150);
+    font-size: 1.04 rem;
+}
+
+
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.first>div {
+    width: 30%;
+
+}
+
+.leftSection {
+
+    width: 34px;
+    font-size: 3rem;
+
+}
+
+.rightSection img {
+    margin: 50px 0;
+    width: 80%;
+}
+
+
+.highlight {
+    color: rgb(205, 159, 68);
+}
+
+#element {
+    color: rgb(20, 110, 227);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0px;
+    background: rgb(129, 31, 31);
+    height: 1.9px;
+    margin: 60px 84px;
+
+}
+
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.grey {
+    color: grey;
+}
+
+.secondSection .box {
+    background: white;
+    width: 88vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+.img {
+    width: 23px;
+    position: relative;
+    top: -32;
+    left: -9px;
+}
+
+.footer {
+    display: flex;
+
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    background-color: rgb(30, 31, 36);
+    
+
+
+}
+.footer ul {
+list-style: none;
+}
+.footer > div{
+width: 223px;
+}
+footer .reserve{
+text-align: center;
+color: grey;
+padding 12px 0;
+}
+.leftSection .btn{
+padding: 12px;
+background: #1e2167;
+color: white;
+border: 2px solid white ;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+
+}
+.leftSection .buttons{
+padding: 50px 0;;
+
+}
+.section-three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+*{
+    box-sizing:  border-box;
+    padding: 0;
+    margin: 0;
+}
+.cardd{
+    background: white;
+    color: black;
+    width: 270px;
+    height: 400px;
+    
+    margin: 10px;
+    border-radius: 15px;;
+}
+.card-image{
+    background-color: red;
+ 
+    height:170px;
+    margin-bottom: 15px;
+    background-size:cover ;
+    border-radius: 15px 15px 0 0;
+}
+.podcast-1{
+    background-image: url('./node-js-.png');
+}
+.podcast-2{
+    background-image: url('./MyImg.png');
+}
+.podcast-3{
+    background-image: url('./bottom.png');
+}
+.podcast-4{
+    background-image: url('./devloper.png');
+}
+.cardd p{
+    padding:15px;
+}
+.cardd a {
+    background-color: rgb(45, 167, 184);
+    color:white;
+    padding: 15px ;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+
+}
+.cardd:hover{
+    background-color: rgb(119, 93, 93);
+    color: rgb(226, 217, 217);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}
+h2{
+    text-align: center;
+
+}
